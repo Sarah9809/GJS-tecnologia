@@ -1,0 +1,63 @@
+@charset "UFT-8";
+
+*{
+    font-family: 'Open Sans';
+}
+main {
+background-color: #DDDDDD;
+border-radius: 10px;
+box-shadow: 5px 5px 15px rgba(70, 101, 102, 0.616) ;
+width: 1000px;
+padding: 10px;
+margin: auto;
+}
+
+body {
+    background-image: linear-gradient(to right, #DDDDDD, #ACFCD9, #98BEFC);
+    background-attachment: fixed;
+}
+
+p {
+    text-align: center;
+}
+
+h1 {
+    color: #95baff;
+    text-align: center;
+}
+
+h2 {
+    
+    color: #323323;
+    text-align: justify;
+}
+
+h3 {
+    color: #323323;
+    text-align: justify;
+}
+
+h4 {
+    color: #323323;
+    text-align: justify;
+}
+
+p {
+    text-align: justify;
+}
+
+#dov {
+    display: flex;
+    justify-content: center;
+}
+
+.container_links{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.link{
+    text-decoration: none;
+    color: rgb(10, 93, 148);
+}
